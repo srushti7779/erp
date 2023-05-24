@@ -1,0 +1,243 @@
+@media(max-width: 768px) {
+
+    .sidecontentdiv{
+        padding-left: 0;
+        margin-top: 0rem!important;
+    }
+
+    .sticky-top{
+        display: none;
+    }
+
+    .mobilenav{
+        display: block;
+    }
+
+    .sidelinks{
+        border-right: none;
+        border-bottom: 1px solid #F7EDEE;
+        height: auto;
+        width: 100%;
+    }
+    
+    .nav-item a{
+        font-size: 0.6rem;
+    }
+    .logoimg{
+        width: 45px;
+        margin-top: 10px;
+    }
+    .menu .socialmedia{
+        display: flex;
+        flex-direction: row!important;
+    }
+
+    .vertical{
+        margin-top: 0;
+   }
+    .productmaindiv{
+        display: flex;
+	    justify-content: center;
+	    align-items: center;
+        border-right:none;
+        padding-bottom: 1rem;
+    }
+
+    .proimgdiv{
+        min-width: 100%;
+        max-width: 100%;
+        max-height: 98%;
+        min-height: 98%;
+    }
+
+    
+    .aboutsec,.productdescsec, .contactsec{
+        padding: 1rem;
+    }
+
+    .aboutsec, .contactsec{
+        margin-top: 2rem;
+    }
+
+    .productsec{
+        height: auto;
+    }
+
+    .projectimagedisplay{
+        margin-top: 1rem;
+    }
+    .productdescsec{
+        margin-top: 3rem;
+    }
+
+    .proddescimg img{
+        min-width: 620px;
+        max-width: 620px;
+        min-height: 380px;
+        max-height: 380px;
+    }
+
+    .slick-track, .slick-list {
+        height: auto;
+   }
+
+    .slides {
+        height: auto;
+   }
+
+   .slides .slide {
+        height: auto;
+    }
+
+    .proddescimg{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        height: auto;
+        overflow-y: scroll;
+        overflow-x: hidden;
+    }
+    
+    .productdescsec p{
+        margin-left: 0;
+        font-size: 1rem;
+        text-align: justify;
+    }
+
+    .productdescsec .typrofproduct{
+        text-align: left;
+   }
+    .productdescsec h3{
+        margin-left: 0;
+        font-size: 1.3rem;
+        text-align: justify;
+    }
+    
+    .aboutsec p, .contactsec p{
+        margin-left: 0;
+    }
+
+    .projectimagedisplay .column{
+        width: 100%;
+    }
+
+    .projectimagedisplay .image {
+        min-height: 350px;
+        max-height: 350px;
+    }
+
+}
+
+@media (min-width: 768px) and (max-width: 1024px)  {
+
+    .sticky-top{
+        display: block;
+    }
+
+    .mobilenav{
+        display: none;
+    }
+
+    .sidelinks, .navnavlink{
+        display: flex!important;
+        flex-direction: row!important;
+    }
+    .sidecontentdiv{
+        width: 100%;
+    }
+    .logoimg{
+        width: 60px;
+    }
+
+    .socialmedia{
+        flex-direction: row!important;
+    }
+    .nav-item a{
+        font-size: 1rem;
+    }
+    
+    .aboutimg img, .contactsec img{
+        width: 350px;
+        height: 400px;
+    }
+
+    .productsec{
+        margin-top: 7rem;
+    }
+
+    .proimgdiv{
+        min-width: 100%;
+        max-width: 100%;
+        max-height: 95%;
+        min-height: 95%;
+    }
+
+    .aboutsec,.productdescsec, .contactsec{
+        padding: 1rem;
+    }
+
+    .aboutsec, .contactsec{
+        margin-top: 6rem;
+    }
+
+    .productdescsec{
+        padding-left: 3rem;
+        margin-top: 5rem;
+    }
+
+    .proddescimg img{
+        min-width: 600px;
+        max-width: 600px;
+        height: auto;
+    }
+
+    .projectimagedisplay .column{
+        width: 50%;
+    }
+    
+}
+
+@media (min-width: 1024px) and (max-width: 1366px)  {
+
+    .sidelinks, .navnavlink{
+        display: flex!important;
+        flex-direction: column!important;
+    }
+    .sidecontentdiv{
+        padding-left: 120px;
+    }
+
+    .aboutimg img, .contactsec img{
+        width: 400px;
+        height: 450px;
+    }
+    .aboutsec p{
+        margin-left: 3rem;
+    }
+
+    .productsec{
+        margin-top: 0;
+    }
+
+    .proimgdiv{
+        min-width: 100%;
+        max-width: 100%;
+        max-height: 100%;
+        min-height: 100%;
+    }
+
+    .productdescsec{
+        padding-left: 1rem;
+    }
+
+    .projectimagedisplay .column{
+        width: 33.33%;
+    }
+
+    .proddescimg img{
+        min-width: 700px;
+        max-width: 700px;
+        height: auto;
+    }
+}

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ERP UNCO</title>
+    <link rel="stylesheet" href="{% static 'app/css/erp.css' %}">
+</head>
+
+<body>
+    <a href="{% url 'home' %}">
+        <div class="image-container">
+            <img src="{% static 'app/images/image1.png' %}" alt="" class="left">
+        </div>
+    </a>
+    <a href="{% url 'home' %}">
+        <div class="image-containero">
+            <img src="{% static 'app/images/image2.png' %}" alt="" class="right">
+        </div>
+    </a>
+</body>
+
+</html>
