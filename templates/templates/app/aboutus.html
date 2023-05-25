@@ -1,0 +1,19 @@
+{% extends 'app/base.html' %}
+{% load static %}
+{% block title %} About Us{% endblock title %}
+
+{% block main-content %}
+
+<div class="row aboutsec">
+    
+    <div class="col-md-6 col-12">
+           <p>Welcome to ERP Design Studio, an architecture firm founded by Priyank and Rishika. We are a full-service architecture and design firm dedicated to creating beautiful, functional, and sustainable spaces.</p>
+           <p> At ERP Design Studio, we believe that architecture is more than just buildings - it's about creating spaces that inspire, engage, and empower people. Our team of experienced architects and designers work closely with our clients to understand their needs, preferences, and aspirations, and then use our expertise to create spaces that exceed their expectations. </p>
+           <p> We specialize in a wide range of architectural services, including residential, commercial, and institutional design. Whether you are looking to build a new home, renovate an existing space, or design a new commercial building, we have the skills and experience to bring your vision to life.</p>
+    </div>
+    <div class="col-md-6 col-12 aboutimg">
+        <img src="{% static 'app/images/aboutus.jpg' %}" alt="" srcset="">
+    </div>
+</div>
+
+{% endblock main-content %}
